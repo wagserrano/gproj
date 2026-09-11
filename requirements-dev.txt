@@ -1,0 +1,6 @@
+-r requirements.txt
+
+pytest==8.3.5
+httpx==0.28.1               # cliente p/ TestClient e testes de integração
+ruff==0.11.9                # linter + formatter rápido
+black==25.1.0               # formatter das migrações (hook do alembic.ini)
